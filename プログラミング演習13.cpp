@@ -119,54 +119,8 @@ int main() {
 		cout << vec[v5.second].getName() << endl;
 	}
 
-	
+}	
 
-
-
-
-
-
-
-
-
-
-
-}
-
-	
-
-/*#include <iostream>
-#include <vector>
-using namespace std;
-
-class Num_vector { //test_vectorをクラスで定義
-private:
-	int Number; //クラスの要素Number
-public:
-	Num_vector() { Number = 0; }; //
-	Num_vector(int newNumber) { Number = newNumber; };
-	void setNumber(int newNumber) { Number = newNumber; }
-	int getNumber() { return Number; }
-};
-
-int main() {
-	vector<Num_vector> test1(5);
-	int i;
-
-	for (i = 0; i < 5; i++)
-		test1.at(i).setNumber(i);
-
-	for (i = 0; i < 5; i++)
-		test1.push_back(1);
-
-	for (i = 0; i < 10; i++)
-		cout << test1[i].getNumber() << " ";
-	cout << endl;
-
-	int sum = 0;
-	
-	return 0;
-}*/
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
 // プログラムのデバッグ: F5 または [デバッグ] > [デバッグの開始] メニュー
 
